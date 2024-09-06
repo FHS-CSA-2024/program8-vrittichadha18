@@ -19,6 +19,8 @@ class Program8 {
         int product = number1 * number2;
         double average = (number1 + number2)/2.0;
         int absoluteValue = Math.abs(difference);
+        //maximum = ((num1+num2) + distance)/2;
+        //minimum = ((num1+num2) - distance)/2;
         int maximum;
         int minimum;
         
