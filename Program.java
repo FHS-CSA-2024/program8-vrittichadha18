@@ -6,27 +6,27 @@ class Program8 {
     public static void main(String[]args){
         Scanner myScanner = new Scanner (System.in);
         
-        int number1;
+        int firstNumber;
         System.out.println("Enter number 1: ");
-        number1 = myScanner.nextInt();
+        firstNumber = myScanner.nextInt();
         
         System.out.println();
         
-        int number2;
+        int secondNumber;
         System.out.println("Enter number 2: ");
-        number2 = myScanner.nextInt();
+        secondNumber = myScanner.nextInt();
         
-        int sum = Math.addExact(number1, number2);
-        int difference = Math.subtractExact(number1, number2);
-        int product = Math.multiplyExact(number1, number2);
+        int sum = Math.addExact(firstNumber, secondNumber);
+        int difference = Math.subtractExact(firstNumber, secondNumber);
+        int product = Math.multiplyExact(firstNumber, secondNumber);
         double average = (sum)/2.0;
         int distance = Math.abs(difference);
-        int maximum = ((number1 + number2) + distance)/2 ;
-        int minimum = ((number1 + number2) - distance)/2;
+        int maximum = ((firstNumber + secondNumber) + distance)/2 ;
+        int minimum = ((firstNumber + secondNumber) - distance)/2;
         
         System.out.println();
         
-        System.out.println("Original numbers are " + number1 + " and " + number2);
+        System.out.println("Original numbers are " + firstNumber + " and " + secondNumber);
         System.out.println();
         System.out.println("Sum = " + sum);
         System.out.println();
